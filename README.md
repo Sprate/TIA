@@ -1,2 +1,2 @@
 # TIA
-Touch Authentication clien side 
+Touch Authentication client side 
