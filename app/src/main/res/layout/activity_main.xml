@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基于用户触屏手势的隐式身份认证系统"
+        android:layout_above="@+id/entry_button"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/entry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="录入用户特征"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/test_button"
+        android:layout_margin="20dp"
+        android:background="#F8F8FF"
+        />
+
+    <Button
+        android:id="@+id/test_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户认证测试"
+        android:layout_centerInParent="true"
+        android:background="#F8F8FF"/>
+    <Button
+        android:id="@+id/Exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出"
+        android:layout_below="@id/test_button"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="#F8F8FF"/>
+</RelativeLayout>
